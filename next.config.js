@@ -9,15 +9,6 @@ module.exports = withPWA({
     dest: "public",
     runtimeCaching,
   },
-  async redirects() {
-    return [
-      {
-        source: "/",
-        destination: "/grocery",
-        permanent: false,
-      },
-    ];
-  },
   images: {
     domains: [
       "googleusercontent.com",
