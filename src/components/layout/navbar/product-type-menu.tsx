@@ -127,36 +127,6 @@ const ProductTypeMenu: React.FC<Props> = ({
                         </button>
                       </div>
                     ))}
-
-                    <button
-                      onClick={() => handleClick(`/grocery-two`)}
-                      className="flex space-s-4 w-full items-center px-5 py-2.5 text-sm font-semibold capitalize text-body-dark transition duration-200 hover:text-accent focus:outline-none"
-                    >
-                      <span className="flex w-5 h-5 items-center justify-center">
-                        {getIcon({
-                          iconList: typeIcon,
-                          iconName: "FruitsVegetable",
-                          className: "max-h-full max-w-full",
-                        })}
-                      </span>
-
-                      <span>Grocery Two</span>
-                    </button>
-
-                    <button
-                      onClick={() => handleClick(`/furniture-two`)}
-                      className="flex space-s-4 w-full items-center px-5 py-2.5 text-sm font-semibold capitalize text-body-dark transition duration-200 hover:text-accent focus:outline-none"
-                    >
-                      <span className="flex w-5 h-5 items-center justify-center">
-                        {getIcon({
-                          iconList: typeIcon,
-                          iconName: "FurnitureIcon",
-                          className: "max-h-full max-w-full",
-                        })}
-                      </span>
-
-                      <span>Furniture Two</span>
-                    </button>
                   </Scrollbar>
                 </motion.div>
               )}
