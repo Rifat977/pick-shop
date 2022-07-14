@@ -4,11 +4,11 @@ import { TwitterIcon } from "@components/icons/twitter";
 import { YouTubeIcon } from "@components/icons/youtube";
 import { ROUTES } from "@utils/routes";
 export const siteSettings = {
-  name: "PickBazar",
+  name: "QatareStore",
   description: "",
   logo: {
     url: "/logo.svg",
-    alt: "PickBazar",
+    alt: "QatareStore",
     href: "/grocery",
     width: 128,
     height: 40,

@@ -21,7 +21,8 @@ export type PageName =
   | "makeup"
   | "bags"
   | "clothing"
-  | "furniture";
+  | "furniture"
+  | "electronics";
 
 export const sitePages: Record<PageName, PageInfo> = {
   grocery: {
@@ -84,6 +85,27 @@ export const sitePages: Record<PageName, PageInfo> = {
   furniture: {
     title: "Furniture - PickBazar",
     description: "Furniture Details",
+    banner: {
+      heading: "heading-furniture",
+      subheading: "subheading-furniture",
+      image: "/banner/furniture.png",
+      gallery: [
+        {
+          id: 1,
+          title: "Exclusives Furniture",
+          image: "/banner/furniture-banner-1.jpg",
+        },
+        {
+          id: 2,
+          title: "Exclusives Furniture",
+          image: "/banner/furniture-banner-2.jpg",
+        },
+      ],
+    },
+  },
+  electronics: {
+    title: "Electronics - QatareStore",
+    description: "Electronics Details",
     banner: {
       heading: "heading-furniture",
       subheading: "subheading-furniture",
