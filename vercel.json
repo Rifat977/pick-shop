@@ -1,7 +1,7 @@
 {
   "build": {
     "env": {
-      "NEXT_PUBLIC_REST_API_ENDPOINT": "https://habibishoppy.azurewebsites.net/"
+      "NEXT_PUBLIC_REST_API_ENDPOINT": "https://api.qatarestore.com/"
     }
   }
 }
