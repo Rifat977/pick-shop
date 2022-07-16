@@ -29,7 +29,8 @@ module.exports = withPWA({
       "pickbazarlaravel.s3.ap-southeast-1.amazonaws.com",
       "picsum.photos",
       "lh3.googleusercontent.com",
-      "habibishoppy.azurewebsites.net"
+      "habibishoppy.azurewebsites.net",
+      "api.qatarestore.com"
     ],
   },
   typescript: {
