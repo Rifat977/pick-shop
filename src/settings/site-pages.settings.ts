@@ -18,8 +18,8 @@ export interface PageInfo {
 export type PageName =
   | "grocery"
   | "bakery"
-  | "bags"
   | "makeup"
+  | "bags"
   | "clothing"
   | "furniture"
   | "electronics";
