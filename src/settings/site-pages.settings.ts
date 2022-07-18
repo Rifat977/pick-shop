@@ -21,8 +21,7 @@ export type PageName =
   | "makeup"
   | "bags"
   | "clothing"
-  | "furniture"
-  | "electronics";
+  | "furniture";
 
 export const sitePages: Record<PageName, PageInfo> = {
   grocery: {
@@ -103,25 +102,5 @@ export const sitePages: Record<PageName, PageInfo> = {
       ],
     },
   },
-  electronics: {
-    title: "Electronics - QatareStore",
-    description: "Electronics Details",
-    banner: {
-      heading: "heading-furniture",
-      subheading: "subheading-furniture",
-      image: "/banner/furniture.png",
-      gallery: [
-        {
-          id: 1,
-          title: "Exclusives Furniture",
-          image: "/banner/furniture-banner-1.jpg",
-        },
-        {
-          id: 2,
-          title: "Exclusives Furniture",
-          image: "/banner/furniture-banner-2.jpg",
-        },
-      ],
-    },
-  },
+  
 };
