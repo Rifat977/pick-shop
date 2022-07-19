@@ -24,6 +24,7 @@ export const siteSettings = {
       makeup: "Neon",
       book: "Xenon",
       medicine: "Helium",
+      electronics: "Krypton",
       default: "Argon",
     },
   },
